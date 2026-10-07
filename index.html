@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio / Desarrollo Frontend</title>
+  
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">MiPortafolio</div>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        
+      
+        <section id="sobre-mi" class="hero">
+            <div class="hero-text">
+                <h1>Hola, soy Diego Manquicoy</h1>
+                <h2>Estudiante de Ingeniería Civil Informática en la UCT</h2>
+                <p>Entre a esta carrera ya que me gusta la tecnologia y los computadores asi que me decidi por estudiar esta carrera para aprender sobre el desarrollo de paginas web,aplicaciones y sobre ciberseguridad.</p>
+            </div>
+            
+            <img src="img/mi-foto.jpg" alt="Foto de Diego Manquicoy, estudiante de informática" class="profile-img">
+        </section>
+
+        
+        <section id="proyectos">
+            <h2>Mis Trabajos del Semestre</h2>
+            <div class="grid-proyectos">
+                
+                <article class="card">
+                    <img src="img/proyecto1.png" alt="Captura de pantalla de la interfaz de la pagina web">
+                    <h3>Pagina para dar a conocer los cuidados de los perros Dashund</h3>
+                    <p>Desarrollado en clases por instruccion dada por el profesor para que aprendamos y practiquemos en la realizacion de paginas web</p>
+                    <a href="https://diegomanquecoy6-maker.github.io/info-dashunds/" target="_blank" rel="noopener noreferrer" class="btn-proyecto">Ver en GitHub</a>
+                </article>
+
+                <article class="card">
+                    <img src="img/proyecto2.png" alt="captura de la pagina de calculo de promedios">
+                    <h3>Pagina de calculo de notas</h3>
+                    <p>Esta pagina fue creada para facilitar los calculos de promedios para los ramos</p>
+                    <a href="https://diegomanquecoy6-maker.github.io/CalcularNotas/" target="_blank" rel="noopener noreferrer" class="btn-proyecto">Ver en GitHub</a>
+                </article>
+
+            </div>
+        </section>
+
+     
+        <section id="contacto">
+            <h2>Hablemos</h2>
+            <p>¿Te intereso mi perfil?, aqui puedes contactarme.</p>
+            
+        
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Tu mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Diego Manquicoy. Proyecto para - Desarrollo de Frontend.</p>
+    </footer>|
+
+</body>
+</html>
